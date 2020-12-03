@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(124, 126, 125);
+    font-size: 10px;
+
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+img {
+    border: 2px solid black;
+    margin: 10px;
+    transition: all 1s;
+
+
+}
+
+/* img:hover {
+this commented out code will grow the images when hovered over together with transition all 1s
+    transform: scale(1.1);
+
+} */
+
+span #titulo {
+
+    text-align: center;
+    height: 80px;
+    background-color: rgb(148, 143, 143);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px rgba(20, 11, 11, 0.4);
+    width: 400px;
+    font-family: fantasy;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+
+
+h1 {
+
+    padding: 18px;
+    text-align: center;
+    justify-content: end;
+    background-color: rgb(150, 145, 145);
+    animation-name: example;
+    animation-duration: 14s;
+}
+
+
+
+img {
+    overflow: hidden;
+    transition-duration: 0.9s;
+    transition-property: transform;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
